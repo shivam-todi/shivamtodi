@@ -10,8 +10,8 @@
 
 # 4) Take the minimum of two smallest distances. Let the minimum be mn. 
 
-# 5) Create an array strip[] that stores all points which are at most d distance away from the middle line dividing the two sets.
+# 5) Create an array strip[] that stores all points which are at most mn distance away from the middle line dividing the two sets.
 
 # 6) Find the smallest distance in strip[].
 
-# 7) Return the minimum of d and the smallest distance calculated in above step 6.
+# 7) Return the minimum of mn and the smallest distance calculated in above step 6.
