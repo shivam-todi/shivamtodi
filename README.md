@@ -5,7 +5,7 @@
 
 # 1) We sort all points according to x and y coordinates.
 
-# 2) Divide all points in two halves.
+# 2) Divide points in y sorted array around the vertical line into two halves.
 
 # 3) Recursively find the smallest distances in both subarrays.
 
@@ -13,6 +13,7 @@
 
 # 5) Create an array strip[] that stores all points which are at most mn distance away from the middle line dividing the two sets.
 
-# 6) Find the smallest distance in strip[].
+# 6) Find the smallest distance in strip[]. All points in strip[] are presorted according to y coordinate.
+     Note that this method seems to be a O(n^2) method, but it's a O(n) method as the inner loop runs at most 6 times 
 
 # 7) Return the minimum of mn and the smallest distance calculated in above step 6.
