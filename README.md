@@ -14,6 +14,7 @@
  5) Create an array strip[] that stores all points which are at most mn distance away from the middle line dividing the two sets.
 
  6) Find the smallest distance in strip[]. All points in strip[] are presorted according to y coordinate.
-     Note that this method seems to be a O(n^2) method, but it's a O(n) method as the inner loop runs at most 6 times 
+
+    Note that this method seems to be a O(n^2) method, but it's a O(n) method as the inner loop runs at most 6 times 
 
  7) Return the minimum of mn and the smallest distance calculated in above step 6.
