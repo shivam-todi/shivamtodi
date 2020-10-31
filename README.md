@@ -18,3 +18,5 @@
     Note that this method seems to be a O(n^2) method, but it's a O(n) method as the inner loop runs at most 6 times 
 
  7) Return the minimum of mn and the smallest distance calculated in above step 6.
+ 
+# Time complexity - O(nlog(n))
